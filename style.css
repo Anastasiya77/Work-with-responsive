@@ -181,8 +181,74 @@ span {
     line-height: 22px;
     font-family: "Gotham Pro";
     text-align: center;
-    color: #ffffff;
+    color: #fff;
+    
 }
 
+.KYLIE_JENNER_LIP_KIT {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   width: 700px;
+   height: 550px;
+   left: 20px;
+   top: 20px;
+}
+
+.KYLIE_JENNER_LIP_KIT_title {
+   top: 15%;
+   left: 3%;
+   position: absolute;
+   text-align: center;
+   font-size: 47px;
+   line-height: 47px;
+   font-family: "Bebas Neue";
+   color: #333333;
+}
+
+.KYLIE_JENNER_LIP_KIT_title_2 {
+    font-family: "Bebas Neue";
+    color: #d65177;
+}
+
+.KYLIE_JENNER_LIP_KIT_text {
+   display: flex;
+   align-items: center;
+   width: 420px;
+   font-size: 17px;
+   font-family: "Gotham Pro Light";
+   line-height: 30px;
+   color: #333333;
+   margin: 170px 20px 0 100px;
+   
+}
+
+.order_button {
+    background-image: linear-gradient(0deg, #b93d5f 0%, #bb3e61 100%);
+    border-bottom: 4px solid #ab3456;
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Gotham Pro Light";
+    text-align: center;;
+    color: #fff;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 35px;
+    margin-left: 140px;
+   
+}
+
+
+.order_button:hover {
+    border-bottom: none;
+}
+
+.order_button span {
+    color: #fff;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: "Gotham Pro";
+}
 
 
