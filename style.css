@@ -170,6 +170,7 @@ span {
     justify-content: center;
     align-items: flex-end;
     transform: rotate(22deg);
+    z-index: 2;
     
 }
 
