@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('./fonts/bebas-neue-bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('./fonts/gotham-pro.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Bold';
+    src: url('./fonts/gotham-pro-bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Medium';
+    src: url('./fonts/gotham-pro-medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham Pro Light';
+    src: url('./fonts/gotham-pro-light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background: #f0ebe8;
+  width: 100%;
+}
+
+.container {
+   max-width: 1554px;
+}
+
+header {
+   display: flex;
+   max-width: 1540px;
+   padding: 0 30px;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.menu_1 {
+   margin: 0 14px;
+   font-size: 17px;
+   color: #333333;
+   text-decoration: none;
+   text-transform: uppercase;
+   border-bottom: 1px solid transparent;
+}
+
+.menu .menu_1.active,
+.menu .menu_1:hover{
+    color:  #d4416a;
+    border-color:#d4416a;
+    transition: 0.8s;
+}
+
+
+.phone-call {
+   display: flex;
+   flex-direction: column;
+    
+}
+
+
+.phone-call-link {
+   text-decoration: none;
+   color: #333333;
+   font-size: 15px;
+   font-family: "Gotham Pro Medium";
+   align-items: center;
+   display: flex;
+}
+
+.phone-call-link:hover {
+   color:  #d4416a;
+   transition: 0.5s;
+   
+}
+
+
+span {
+    margin: 6px;
+    font-family: 'Gotham Pro Light';
+
+}
+
+
+.container_main{
+  background: linear-gradient(0deg, #dee1d3 0%, #d9dbce 100%);
+  min-height: 600px;
+  width: 1550px;
+  margin-top: 25px;
+  position: relative;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+
+ .container_main::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 27px;
+    background-image: url(./images/bottom-wave.png);
+    background-position: center left;
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0;
+    top: -11px;
+   
+  }
+  .container_main::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 23px;
+    background-image: url(./images/top-wave.png);
+    background-position: center left;
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   
+  }
+
+.container_main img {
+   position: absolute;
+   display: flex;
+   margin-left: 840px;
+   margin-top: 25px;
+   height: 565px;
+
+}
+
+.container_main_price  {
+    position: absolute;
+    top: 120px;
+    right: 75%;
+    width: 400px;
+    z-index: 1;
+   
+}
+
+
+.container_main_price img {
+   height: 400px;
+   
+}
+
+
+.lip_prise {
+   position: absolute;
+   background-image: url(./images/border.png), url(./images/background.png);
+    top: 95px;
+    left: 48%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+    transform: rotate(22deg);
+    
+}
+
+.lip_prise p {
+    display: block;
+    width: 60px;
+    height: 90px;
+    font-size: 27px;
+    line-height: 22px;
+    font-family: "Gotham Pro";
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
