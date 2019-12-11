@@ -30,7 +30,7 @@
 }
 
 body {
-  background: #f0ebe8;
+  background-color: #f0ebe8;
   width: 100%;
 }
 
@@ -253,13 +253,99 @@ span {
     font-family: "Gotham Pro";
 }
 
-.containet-2 {
+body .container_2 {
   min-height: 600px;
   width: 1550px;
-  margin-top: 100px;
   position: absolute;
-   display: flex;
-  background-color: #ff00ce;
+   margin-top: 100px;
 }
 
+
+.container_2 h1 {
+   display: flex;
+   justify-content: center;
+   font-family: "Gotham Pro";
+   color: #d4416a;
+   font-size: 38px;
+   flex-wrap: wrap;
+  
+}
+
+.container_2 p {
+   display: flex;
+   font-size: 17px;
+   font-family: "Gotham Pro Light";
+   flex-wrap: wrap;
+   line-height: 40px;
+   color: #333333;
+   position: absolute;
+   max-width: 790px;
+   margin-left: 620px;
+   margin-top: 150px;
+   
+  
+}
+
+
+.container_2 span {
+   font-weight: bold;
+   font-family: "Gotham Pro Light";
+}
+
+
+.circle_picture {
+    width: 350px; 
+    height: 350px;
+    overflow: hidden;
+    background: #d47e96;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.circle_picture img {
+    display: block;
+    width: 300px;
+    margin-left: 6%;
+   
+    
+}
+
+.order_button_2 {
+   background-image: linear-gradient(0deg, #c9486c 0%, #bb3e61 100%);
+    border-bottom: 4px solid #ab3456;
+    width: 300px;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Gotham Pro Light";
+    text-align: center;;
+    color: #fff;
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 5px;
+    margin-left: 800px;
+    flex-wrap: wrap;
+   
+}
+
+.order_button_2:hover {
+    border-bottom: none;
+  
+}
+
+.order_button_2 span {
+    color: #fff;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: "Gotham Pro";
+   
+}
+
+.KYLIE_JENNER_product {
+   position: absolute;
+   display: flex;
+   margin-top: -290px;
+   margin-left: 1290px;
+   flex-wrap: wrap;
+}
 
