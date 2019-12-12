@@ -269,7 +269,7 @@ body .container_2 {
 
 .container_2 h1 {
    display: flex;
-   justify-content: center;
+   margin-left: 28%;
    font-family: "Gotham Pro";
    color: #d4416a;
    font-size: 38px;
@@ -368,17 +368,20 @@ body .container_2 {
 
 
 @media (max-width: 1500px) {
-   .phone-call-link {
+   
+   
+     .phone-call-link {
       order: 3;
+      
     
    }
    
-   .container_main {
-       right: 17%;   
+   .container_main img{
+       right: 4%;   
    }
    
    .KYLIE_JENNER_LIP_KIT {
-      margin-left: 200px;
+      margin-left: 10px;
       
    }
    
@@ -397,4 +400,21 @@ body .container_2 {
        margin-left: 8%;
    }
    
+
+   .container_2 h1  {
+   margin-left: 20%;
+   
+}
+
+   .container_main_price{
+      right: 43%;
+   }
+
+   .lip_prise {
+      right: 8px;
+   }
+   
+   }
+ 
+
    
