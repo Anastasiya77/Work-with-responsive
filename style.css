@@ -371,7 +371,7 @@ body .container_2 {
    
    
      .phone-call-link {
-      order: 3;
+      order: 3; /*???????????*/
       
     
    }
@@ -411,7 +411,7 @@ body .container_2 {
    }
 
    .lip_prise {
-      right: 8px;
+      margin-right: 45%;/*???????????*/
    }
    
    }
