@@ -234,7 +234,7 @@ header {
 
 
 
-.lip_prise {
+.prise {
    position: absolute;
    background-image: url(./images/border.png), url(./images/background.png);
     top: 92px;
@@ -251,7 +251,7 @@ header {
     
 }
 
-.lip_prise p {
+.prise p {
     display: block;
     width: 60px;
     height: 90px;
@@ -313,7 +313,7 @@ header {
     font-size: 17px;
     line-height: 26px;
     margin-top: 35px;
-    margin-left: 140px;
+    margin-left: 145px;
    
 }
 
