@@ -29,18 +29,77 @@
     font-style: normal;
 }
 
+
+/*
+@media (max-width: 1500px) {
+   
+   
+     .phone-call-link {
+      order: 3; ???????????
+      
+    
+   }
+   
+   .container_main img{
+       right: 4%;   
+   }
+   
+   .KYLIE_JENNER_LIP_KIT {
+      margin-left: 10px;
+      
+   }
+   
+   
+   .KYLIE_JENNER_LIP_KIT_title {
+   font-size: 40px; 
+   margin-left: 3%;   
+ 
+}
+
+  .KYLIE_JENNER_LIP_KIT_text {
+    margin-left: 7%;
+   }
+ 
+   .order_button {
+       margin-left: 8%;
+   }
+   
+
+   .container_2 h1  {
+   margin-left: 20%;
+   
+}
+
+   .container_main_price{
+      right: 43%;
+   }
+
+   .lip_prise {
+      display: none;
+   }
+   
+   }
+*/
+ 
+@media screen and (min-width: 600px) and (max-width: 800px) {
+   body {
+      display: none;
+   }
+
+
 body {
   background-color: #f0ebe8;
   width: 100%;
 }
 
 .container {
-   max-width: 1554px;
+   display: flex;
+   justify-content: space-around;
 }
 
 header {
    display: flex;
-   max-width: 1540px;
+   width: 1100px;
    padding: 0 30px;
    justify-content: space-between;
    align-items: center;
@@ -99,11 +158,12 @@ header {
 .container_main{
   background: linear-gradient(0deg, #dee1d3 0%, #d9dbce 100%);
   min-height: 600px;
-  width: 1550px;
   margin-top: 25px;
   position: relative;
   background-repeat: repeat;
   overflow: hidden;
+   display: flex;
+   justify-content: space-around;
 }
 
 
@@ -134,10 +194,18 @@ header {
    
   }
 
+.container_main_wrapper {
+   width: 1300px;
+   display: flex;
+}
+
+.main-wrapper-left, .main-wrapper-right {
+   width: 50%
+}
+
 .container_main img {
    position: absolute;
    display: flex;
-   margin-left: 840px;
    margin-top: 25px;
    height: 565px;
 
@@ -363,58 +431,8 @@ body .container_2 {
 }
 
 
-
-
-
-
-@media (max-width: 1500px) {
-   
-   
-     .phone-call-link {
-      order: 3; /*???????????*/
-      
-    
-   }
-   
-   .container_main img{
-       right: 4%;   
-   }
-   
-   .KYLIE_JENNER_LIP_KIT {
-      margin-left: 10px;
-      
-   }
-   
-   
-   .KYLIE_JENNER_LIP_KIT_title {
-   font-size: 40px; 
-   margin-left: 3%;   
- 
 }
 
-  .KYLIE_JENNER_LIP_KIT_text {
-    margin-left: 7%;
-   }
- 
-   .order_button {
-       margin-left: 8%;
-   }
-   
 
-   .container_2 h1  {
-   margin-left: 20%;
-   
-}
-
-   .container_main_price{
-      right: 43%;
-   }
-
-   .lip_prise {
-      margin-right: 45%;/*???????????*/
-   }
-   
-   }
- 
 
    
